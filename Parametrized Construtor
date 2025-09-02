@@ -1,32 +1,32 @@
-package Com.w2;
-class parametarized_constructor{
+package Com.sample;
+class parametarizedconstructor{
     String Name;
     String section;
     int classRoomNo;
-    parametarized_constructor(){
+    parametarizedconstructor(){
         System.out.println("Default Constructor"); // Default constructor with no parameters
     }
-    parametarized_constructor(String Name){
+    parametarizedconstructor(String Name){
             System.out.println("Hello "+ Name); // One parameterized constructor
     }
-    parametarized_constructor(String Name,String section){
+    parametarizedconstructor(String Name,String section){
         System.out.println("Hello "+Name + " Welcome to "+section); // Two parameterized constructor
         
     }
-    parametarized_constructor(String Name,String section,int classRoomNo){
+    parametarizedconstructor(String Name,String section,int classRoomNo){
         System.out.println("Hello "+Name +"Welcome to"+ section +  " Your Class Room No: "+classRoomNo); // Three parameterized constructor
         
     }
 }
 
-public class Parametrized{
+public class parametrizedconstrutor{
 
     public static void main(String[] args) {
         // TODO Auto-generated method stub
-        parametarized_constructor con = new parametarized_constructor();  //no parameters
-        parametarized_constructor p1con = new parametarized_constructor("preethika");
-        parametarized_constructor p2con = new parametarized_constructor("preethika","CSE_E");//two parameters
-        parametarized_constructor p3con = new parametarized_constructor("preethika","CSE_E",207);//three parameters
+        parametarizedconstructor con = new parametarizedconstructor();  //no parameters
+        parametarizedconstructor p1con = new parametarizedconstructor("preethika");
+        parametarizedconstructor p2con = new parametarizedconstructor("preethika","CSE_E");//two parameters
+        parametarizedconstructor p3con = new parametarizedconstructor("preethika","CSE_E",207);//three parameters
     }
 }
 
